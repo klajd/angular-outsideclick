@@ -1,0 +1,40 @@
+{
+  "name": "angular-outsideclick",
+  "description": "Simple angular directive to handle events when the user clicks outside the specific dom element.",
+  "main": [
+    "dist/angular-outsideclick.js",
+    "dist/angular-outsideclick.min.js"
+  ],
+  "authors": [
+    "Klajd Diko (klajd.diko@gmail.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "outsideclick",
+    "documentclick",
+    "directive"
+  ],
+  "homepage": "https://github.com/klajd/angular-outsideclick",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ],
+      "dependencies": {}
+    }
+  },
+  "devDependencies": {
+    "angular-component-demo": "*"
+  }
+}
