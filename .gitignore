@@ -8,4 +8,5 @@ typings
 
 # temp folder and files
 .temp
+.gh-pages
 *.log
